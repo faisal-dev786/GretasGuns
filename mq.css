@@ -274,6 +274,8 @@ img {
         font-size: 42px;
         margin-top: 70px;
         margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
     }
 
     .box {
@@ -287,6 +289,9 @@ img {
         padding-right: 30px;
         padding-bottom: 0px;
 
+    }
+    .grid_box h2,h3,p{
+        font-family: 'Roboto', sans-serif;
     }
 
     .box2 {

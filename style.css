@@ -148,6 +148,8 @@ img {
     font-size: 25px;
     margin-top: 70px;
     margin-bottom: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
 }
 
 .box {
@@ -157,9 +159,11 @@ img {
     box-shadow: rgba(7, 4, 146, 0.1)  0px 2px; */
     text-align: center;
     padding-bottom: 40px;
-
-
 }
+.grid_box h2,h3,p{
+    font-family: 'Roboto', sans-serif;
+}
+
 
 .box2 {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
