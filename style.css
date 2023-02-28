@@ -141,6 +141,24 @@ img {
 
 /*  subscribe end*/
 
+
+    /* about  */
+
+    .aboutBg {
+        background-image: url('./images/aboutBg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+
+    .aboutBg h1 {
+        padding-top: 110px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+    }
+
 /* card */
 .clienth1 {
     text-align: center;

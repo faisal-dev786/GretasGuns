@@ -264,6 +264,8 @@ img {
     .aboutBg h1 {
         padding-top: 110px;
         color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
     }
 
 
