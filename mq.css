@@ -372,6 +372,9 @@ img {
         font-family: 'Quicksand', sans-serif;
         font-weight: bold !important;
     }
+    .flex_contact_col2{
+        margin-left: 150px;
+    }
 
     .child2 {
         margin: 50px 0px;
