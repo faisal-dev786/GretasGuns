@@ -313,6 +313,9 @@ p {
 
 
 /* contact Form */
+.contactBg{
+    background-color: #FAFAFA;
+}
 .flex_contact {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
@@ -346,7 +349,7 @@ p {
 }
 
 .contactForm {
-    background-color: #FAFAFA;
+    /* background-color: #FAFAFA; */
     border-radius: 10px;
     border: none;
     
@@ -417,6 +420,9 @@ p {
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 
+}
+.flex_contact_col1 {
+    padding-top: 20px;
 }
 
 

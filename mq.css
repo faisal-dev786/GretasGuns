@@ -336,7 +336,12 @@ img {
 
     /* contact Form */
 
-
+.contactBg{
+    background-color: #FAFAFA;
+}
+.flex_contact_col1 {
+    padding-top: 20px;
+}
     .flex_contact {
         display: grid;
         /* grid-template-columns: repeat(2, 1fr); */
@@ -373,11 +378,12 @@ img {
     }
 
     .contactForm {
-        background-color: #FAFAFA;
+        /* background-color: #FAFAFA; */
         border-radius: 10px;
         border: none;
         padding: 40px 30px;
     }
+
 
     .contactFormTitle {
         margin-bottom: 40px;
