@@ -14,21 +14,23 @@ img {
     margin: auto;
 }
 
-.grid_topNavbar {
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    grid-gap: 0px;
+.flex_topNavbar {
+    display: flex;
+    gap: 20px;
+
 }
 
-.grid_topNavbar2 {
-    display: grid;
-    grid-template-columns: 90px 90px 90px 90px;
-    grid-gap: 0px;
+.flex_topNavbar2 {
+    display: flex;
+    gap: 10px;
     margin-top: 10px;
+    align-items: center;
 }
 
 .nexted_navbar {
     display: flex;
+    align-items: center;
+    gap: 2px;
 
 }
 
@@ -40,7 +42,7 @@ img {
     margin-right: 5px;
 }
 
-.grid_topNavbar {
+.flex_topNavbar {
     max-width: 180px;
     margin: auto;
 }
@@ -49,13 +51,92 @@ img {
     margin-top: 20px;
 }
 
+/*Ecommerce Navbar  */
+    /* search-box */
+    .search-box {
+        width: 100%;
+        position: relative;
+        display: flex;
 
+    }
+
+    .search-box input {
+        
+        height: 40px;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid grey;
+        border-radius: 5px 0 0 5px;
+        border-right: none;
+        outline: none;
+        font-size: 20px;
+
+        background: none;
+    }
+
+    .search-button {
+        text-align: center;
+        height: 40px;
+        width: 40px;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid grey;
+        border-radius: 0 5px 5px 0;
+        border-left: none;
+        background: none;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+
+    .fa-search {
+        color: grey;
+
+    }
+
+    
+    .flex_Navbar {
+       flex-wrap: nowrap;
+        grid-gap: 20px;
+        margin-top: 50px;
+        align-items: center;
+
+    }
+
+    .btn {
+        color: #FAFAFA;
+        background-color: #0A6AA1;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 2px;
+    }
+
+    .flex_Navbar a {
+        color: black;
+        text-decoration: none;
+        /* line-height: 45px; */
+    }
+
+    .flex_Navbar_border {
+        background-color: grey;
+        width: 1000px;
+        height: 1px;
+        max-width: 1200px;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    /*Ecommerce Navbar End  */
 
 
 
 
 /*  */
-.grid_footer {
+.flex_footer {
     display: grid;
     /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: 30px 30px 30px 30px;
@@ -120,7 +201,7 @@ img {
     padding: 12px 10px;
     border: none;
     border-radius: 3px;
-   
+
 }
 
 .subscribe_p {
@@ -133,7 +214,7 @@ img {
     padding-left: 20px;
     outline: none;
     border: 1px rgb(75, 70, 70);
-    
+
     margin-left: 5px;
 
 
@@ -142,22 +223,22 @@ img {
 /*  subscribe end*/
 
 
-    /* about  */
+/* about  */
 
-    .aboutBg {
-        background-image: url('./images/aboutBg.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 200px;
-    }
+.aboutBg {
+    background-image: url('./images/aboutBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
 
-    .aboutBg h1 {
-        padding-top: 110px;
-        color: white;
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 700;
-    }
+.aboutBg h1 {
+    padding-top: 110px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
 
 /* card */
 .clienth1 {
@@ -178,7 +259,10 @@ img {
     text-align: center;
     padding-bottom: 40px;
 }
-.grid_box h2,h3,p{
+
+.flex_box h2,
+h3,
+p {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -219,7 +303,7 @@ p {
     margin-bottom: 10px;
 }
 
-.grid_box {
+.flex_box {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
@@ -229,7 +313,7 @@ p {
 
 
 /* contact Form */
-.grid_contact {
+.flex_contact {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(1, 1fr);
@@ -237,22 +321,22 @@ p {
 }
 
 
-.grid_contact_col1 p {
+.flex_contact_col1 p {
     font-family: 'Poppins', sans-serif;
 }
 
-.grid_contact_col1 h3 {
+.flex_contact_col1 h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold !important;
 }
 
-.grid_contact_col2 label,
+.flex_contact_col2 label,
 select,
 p {
     font-family: 'Poppins', sans-serif;
 }
 
-.grid_contact_col2 h3 {
+.flex_contact_col2 h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold !important;
 }
@@ -339,7 +423,7 @@ p {
 
 /* banner bottom  */
 
-.grid_bottomBanner {
+.flex_bottomBanner {
     /* overflow-x: hidden; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
