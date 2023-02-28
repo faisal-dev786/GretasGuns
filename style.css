@@ -315,6 +315,7 @@ p {
 /* contact Form */
 .contactBg{
     background-color: #FAFAFA;
+    margin-bottom: 20px;
 }
 .flex_contact {
     display: grid;
