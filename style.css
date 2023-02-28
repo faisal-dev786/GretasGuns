@@ -101,7 +101,7 @@ img {
     .flex_Navbar {
        flex-wrap: nowrap;
         grid-gap: 20px;
-        margin-top: 50px;
+        margin-top: 15px;
         align-items: center;
 
     }
