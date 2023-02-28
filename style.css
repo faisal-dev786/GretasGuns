@@ -122,7 +122,7 @@ img {
 
     .flex_Navbar_border {
         background-color: grey;
-        width: 1000px;
+        /* width: 1000px; */
         height: 1px;
         max-width: 1200px;
         margin: auto;
