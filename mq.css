@@ -160,7 +160,7 @@ img {
 
     /*Ecommerce Navbar End  */
 
-    /*  */
+    /* footer ist section  */
     .flex_footer {
         display: grid;
         /* grid-template-columns: repeat(4, 1fr); */
@@ -348,6 +348,8 @@ img {
         /* grid-template-columns: repeat(2, 1fr); */
         grid-template-columns: 40% 60%;
         grid-gap: 20px;
+        padding-top: 80px;
+        padding-bottom: 60px;
     }
 
 
@@ -382,7 +384,7 @@ img {
     }
 
     .contactForm {
-        /* background-color: #FAFAFA; */
+        background-color: #F0F0F0;
         border-radius: 10px;
         border: none;
         padding: 40px 30px;
