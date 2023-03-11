@@ -518,8 +518,8 @@ img {
     }
 
     .code input {
-
-        width: 350px;
+width: 100%;
+        max-width: 350px;
         height: 40px;
         border-radius: 8px;
         border: 2px solid #C9C9C9;
