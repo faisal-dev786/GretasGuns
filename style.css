@@ -53,7 +53,12 @@ img {
     margin: 20px 0px;
 }
  /* home banner End  */ 
-.flex_topNavbar {
+
+ .topNavbar {
+    display: none;
+ }
+ /* top navbar */
+/* .flex_topNavbar {
     display: flex;
     gap: 20px;
 
@@ -93,8 +98,8 @@ img {
 
 .topNavbar {
     margin-top: 20px;
-}
-
+} */
+ /* top navbar end */
 /*Ecommerce Navbar  */
 /* search-box */
 .search-box {
